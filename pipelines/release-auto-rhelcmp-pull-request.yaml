@@ -126,9 +126,6 @@ spec:
       - name: basic-auth
         workspace: git-auth
     - name: schedule-build
-      params:
-      - name:
-        value:
       runAfter:
       - clone-repository
       taskRef:
